@@ -13,7 +13,7 @@
     { "id": 6, "userId": "2", "title": "PeraAlbum3", "creator": "Hana", "photos": "???"},
     { "id": 7, "userId": "3", "title": "BrenaAlbum1", "creator": "Ana", "photos": "???" },
     { "id": 8, "userId": "3", "title": "BrenaAlbum2", "creator": "Maja", "photos": "???" },
-    { "id": 9, "userId": "3", "title": "BrenaAlbum3", "creator": "Hana", "photos": "???"},
+    { "id": 9, "userId": "3", "title": "BrenaAlbum3", "creator": "Hana", "photos": "???"}
     
   ],
   "photos": [
@@ -43,7 +43,7 @@
     { "id": 8, "albumId": "1", "url":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/", "title": "slika24" },
     { "id": 9, "albumId": "1", "url":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/", "title": "slika25" },
     { "id": 9, "albumId": "1", "url":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/", "title": "slika26" },
-    { "id": 9, "albumId": "1", "url":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/", "title": "slika27" },
+    { "id": 9, "albumId": "1", "url":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/", "title": "slika27" }
   ]
 
 }
