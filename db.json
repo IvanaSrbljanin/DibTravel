@@ -6,14 +6,14 @@
   ],
   "albums": [
     { "id": 1, "userId": 1, "title": "IvanaAlbum1", "creator": "Ana", "photos": [1, 2, 3], "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/" },
-    { "id": 2, "userId": 1, "title": "IvanaAlbum2", "creator": "Maja", "photos": [4, 5, 6] "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
-    { "id": 3, "userId": 1, "title": "IvanaAlbum3", "creator": "Hana", "photos": [7, 8, 9] "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
-    { "id": 4, "userId": 2, "title": "PeraAlbum1", "creator": "Ana", "photos": [10, 11, 12] "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
-    { "id": 5, "userId": 2, "title": "PeraAlbum2", "creator": "Maja", "photos": [13, 14, 15] "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
-    { "id": 6, "userId": 2, "title": "PeraAlbum3", "creator": "Hana", "photos": [16, 17, 18] "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
-    { "id": 7, "userId": 3, "title": "BrenaAlbum1", "creator": "Ana", "photos": [19, 20, 21] "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
-    { "id": 8, "userId": 3, "title": "BrenaAlbum2", "creator": "Maja", "photos": [22, 23, 24] "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
-    { "id": 9, "userId": 3, "title": "BrenaAlbum3", "creator": "Hana", "photos":[25, 26, 27] "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"}
+    { "id": 2, "userId": 1, "title": "IvanaAlbum2", "creator": "Maja", "photos": [4, 5, 6], "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
+    { "id": 3, "userId": 1, "title": "IvanaAlbum3", "creator": "Hana", "photos": [7, 8, 9], "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
+    { "id": 4, "userId": 2, "title": "PeraAlbum1", "creator": "Ana", "photos": [10, 11, 12], "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
+    { "id": 5, "userId": 2, "title": "PeraAlbum2", "creator": "Maja", "photos": [13, 14, 15], "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
+    { "id": 6, "userId": 2, "title": "PeraAlbum3", "creator": "Hana", "photos": [16, 17, 18], "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
+    { "id": 7, "userId": 3, "title": "BrenaAlbum1", "creator": "Ana", "photos": [19, 20, 21], "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
+    { "id": 8, "userId": 3, "title": "BrenaAlbum2", "creator": "Maja", "photos": [22, 23, 24], "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"},
+    { "id": 9, "userId": 3, "title": "BrenaAlbum3", "creator": "Hana", "photos":[25, 26, 27], "coverUrl":"https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/"}
     
   ],
   "photos": [
