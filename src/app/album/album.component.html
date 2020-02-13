@@ -1,22 +1,31 @@
 
 <div class="container" *ngIf="album">
-	<div>
 
+	<div class = "togglestyle" (click)="toggle.showGrid()">
+		<fa-icon [icon]="faThLarge" class="fa-2x"></fa-icon>
+	</div>
+	<div class = "togglestyle" (click)="toggle.showList()" >
+		<fa-icon [icon]="faBars" class="fa-2x"></fa-icon>
+	</div>
+
+	<div>
 		<p class="back" (click)="backPage()"><fa-icon [icon]="faArrowLeft" class="fa-lg"></fa-icon> Povratak</p>
 	</div>
 	
 	<p class="title"> {{album.name}} </p>
 	<div>
-	<fa-icon [icon]="faSearch" class="fa-2x filter"></fa-icon>
-	<input class="search" type="text" name="search" placeholder="Pretraži" (keyup)="filterPhotos($event)" />
+		<fa-icon [icon]="faSearch" class="fa-2x filter"></fa-icon>
+		<input class="search" type="text" name="search" placeholder="Pretraži" (keyup)="filterPhotos($event)" />
 	</div>
 	<p class="rectangle"> </p>
 
-	<div class="row">
+
+
+	<div class="row albumrow" *ngIf="toggle.gridShown"> 
 	  <div id="{{photo.title}}" class="col-sm-4" *ngFor="let photo of photos">
-	      <p>
+	      <div>
 	        <img [src]="photo.url" />
-	      </p>
+	      </div>
 	      <div class = "imgDesc">
 		    <p class="photoTitle">{{photo.title}}</p>
 			<p class="delete" (click)="openDialog(photo.id, photo.title)"><fa-icon [icon]="faTrash" class="fa-2x"></fa-icon></p>
@@ -24,6 +33,22 @@
 
 	  </div>
 	</div>
+
+
+	<div class="row albumrow" *ngIf="toggle.listShown">
+	  <div class="row albumrow" id="{{photo.title}}" *ngFor="let photo of photos">
+	      <div class = "col-sm-6">
+	      		<img [src]="photo.url" />
+	      </div>
+	      <div class = "col-sm-6 imgDesc">
+		    <p class="photoTitle">{{photo.title}}</p>
+			<p class="delete" (click)="openDialog(photo.id, photo.title)"><fa-icon [icon]="faTrash" class="fa-2x"></fa-icon></p>
+	  	</div>
+
+	  </div>
+	</div>
+
+
 
 </div>
 

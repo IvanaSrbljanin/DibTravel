@@ -7,6 +7,9 @@ import { MatDialog, MatDialogRef, MAT_DIALOG_DATA, MatDialogConfig } from '@angu
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faThLarge } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { ToggleStyleService} from '../services/toggle-style.service';
 
 
 @Component({
@@ -20,6 +23,8 @@ export class AlbumComponent implements OnInit {
   faTrash = faTrash;
   faSearch = faSearch;
   faArrowLeft = faArrowLeft;
+  faThLarge = faThLarge;
+  faBars = faBars;
 
   photos;
   album;
@@ -27,7 +32,7 @@ export class AlbumComponent implements OnInit {
   albumId: Number;
   dialogRef: MatDialogRef<DeletedialogComponent>;
   
-  constructor(private route: ActivatedRoute, private albumService: AlbumService, public dialog: MatDialog, public router: Router ) { }
+  constructor(private route: ActivatedRoute, private albumService: AlbumService, public dialog: MatDialog, public router: Router, public toggle: ToggleStyleService ) { }
 
   ngOnInit(): void {
     
@@ -66,7 +71,6 @@ export class AlbumComponent implements OnInit {
         this.photos = photos;
       })
   }
-
 
 
 }

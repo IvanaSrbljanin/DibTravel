@@ -1,31 +1,31 @@
 
 <div class="container">
 
-	<div class = "togglestyle" (click)="showGrid()">
+	<div class = "togglestyle" (click)="toggle.showGrid()">
 		<fa-icon [icon]="faThLarge" class="fa-2x"></fa-icon>
 	</div>
-	<div class = "togglestyle" (click)="showList()" >
+	<div class = "togglestyle" (click)="toggle.showList()" >
 		<fa-icon [icon]="faBars" class="fa-2x"></fa-icon>
 	</div>
 
 	<p class="title"> Ivanini Foto Albumi </p>
-		<div class="row albumrow" *ngIf="gridShown">
+		<div class="row albumrow" *ngIf="toggle.gridShown">
 			<div class="col-sm-4" *ngFor="let album of albums">
 			  <a [routerLink]="['/albums', album.id]"><img class="albumpreview" [src]="album.preview" /></a>	  
 			  <p class = "albumName" >{{album.name}}</p>
 			  <p class="author"> Autor: {{album.author}}</p>
 		    </div>
 		</div>
-		<div  class="row albumrow" *ngIf="listShown">
-		<div class="row albumrow" *ngFor="let album of albums">
-			<div class="col-sm-6" ><a [routerLink]="['/albums', album.id]"><img class="albumpreview" [src]="album.preview" /></a></div>
-			<div class="col-sm-6" >	
-				<p class = "albumName" >{{album.name}}</p>
-				<p class="author"> Autor: {{album.author}}</p>
-			</div>
-		  	  
-	    </div>
-	</div>
+		<div  class="row albumrow" *ngIf="toggle.listShown">
+			<div class="row albumrow" *ngFor="let album of albums">
+				<div class="col-sm-6" ><a [routerLink]="['/albums', album.id]"><img class="albumpreview" [src]="album.preview" /></a></div>
+				<div class="col-sm-6" >	
+					<p class = "albumName" >{{album.name}}</p>
+					<p class="author"> Autor: {{album.author}}</p>
+				</div>
+			  	  
+		    </div>
+		</div>
 
 </div>
 
