@@ -6,7 +6,7 @@
   },
   "albums": [
     { "id": 1, "userId": 1, "name": "Album1", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Ivana" },
-    { "id": 2, "userId": 1, "name": "Album2", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Jelena"},
+    { "id": 2, "userId": 1, "name": "Album2", "preview": "https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Jelena"},
     { "id": 3, "userId": 1, "name": "Album3", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Unknown"},
     { "id": 4, "userId": 1, "name": "Album4", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Ivana"},
     { "id": 5, "userId": 1, "name": "Album5", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Jelena"},
