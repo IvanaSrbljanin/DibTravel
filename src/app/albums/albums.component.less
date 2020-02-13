@@ -1,0 +1,48 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@fontfamily:  "Open Sans",open-sans,sans-serif;
+
+@media only screen and (max-device-width: 480px) {
+        p.title {
+            font-size: 30px;
+        }
+}
+
+img {
+	width: 100%;
+}
+
+.title{
+	width: 100%;
+	color: #FFC23B;;
+	font-family: @fontfamily;
+	font-size: 56px;
+	font-weight: 100;
+	line-height: 58px;
+}
+
+.albumName {
+	height: 38px;
+	font-family: @fontfamily;
+	font-size: 32px;
+	font-weight: 100;
+	line-height: 39px;
+	&:hover {
+		color: #FFC23B;
+		cursor: pointer;
+	};
+}
+
+.author {
+	height: 21px;
+	color: #8A8A8A;
+	font-family: @fontfamily;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.albumpreview {
+	&:hover {opacity: 0.8;}
+}
+

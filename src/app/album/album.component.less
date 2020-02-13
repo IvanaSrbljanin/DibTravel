@@ -1,0 +1,77 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@fontfamily:  "Open Sans",open-sans,sans-serif;
+@lineheight: 39px;
+
+@media only screen and (max-device-width: 480px) {
+        p.title {
+            font-size: 32px;
+        }
+}
+
+img {
+	width: 100%;
+}
+
+.title{
+	height: 76px;
+	width: 758px;
+	color: #000000;
+	font-family: @fontfamily;
+	font-size: 64px;
+	font-weight: 100;
+	line-height: 78px;
+}
+
+.photoTitle {
+	width:90%;
+	color: #000000;
+	font-family: @fontfamily;
+	font-size: 32px;
+	font-weight: 100;
+	line-height: @lineheight;
+}
+
+.back {
+	height: 28px;
+	color: #000000;
+	font-family: @fontfamily;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	cursor: pointer;
+	&:hover {color: #FFC23B;}
+}
+
+.search {
+	border: 0;
+	margin-left: 10px;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: @fontfamily;
+	color: #C7C7C7;
+}
+
+.rectangle {
+	height: 1px;
+	width: 290px;
+	background-color: #000000;
+}
+
+.delete {
+	line-height: @lineheight;
+	cursor: pointer;
+	&:hover {
+		color: #FFC23B;
+	}
+}
+
+.filter {
+	color: #C7C7C7;
+}
+
+.imgDesc {
+	display: inline-flex;
+	width: 100%;
+	padding: 0;
+}

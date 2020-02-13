@@ -1,0 +1,29 @@
+
+<div class="container" *ngIf="album">
+	<div>
+
+		<p class="back" (click)="backPage()"><fa-icon [icon]="faArrowLeft" class="fa-lg"></fa-icon> Povratak</p>
+	</div>
+	
+	<p class="title"> {{album.name}} </p>
+	<div>
+	<fa-icon [icon]="faSearch" class="fa-2x filter"></fa-icon>
+	<input class="search" type="text" name="search" placeholder="Pretraži" (keyup)="filterPhotos($event)" />
+	</div>
+	<p class="rectangle"> </p>
+
+	<div class="row">
+	  <div id="{{photo.title}}" class="col-sm-4" *ngFor="let photo of photos">
+	      <p>
+	        <img [src]="photo.url" />
+	      </p>
+	      <div class = "imgDesc">
+		    <p class="photoTitle">{{photo.title}}</p>
+			<p class="delete" (click)="openDialog(photo.id, photo.title)"><fa-icon [icon]="faTrash" class="fa-2x"></fa-icon></p>
+	  	</div>
+
+	  </div>
+	</div>
+
+</div>
+

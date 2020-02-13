@@ -1,0 +1,13 @@
+
+<div class="container">
+<p class="title"> Ivanini Foto Albumi </p>
+<div class="row">
+	<div class="col-sm-4" *ngFor="let album of albums">
+
+	  <a [routerLink]="['/albums', album.id]"><img class="albumpreview" [src]="album.preview" /></a>	  
+	  <p class = "albumName" >{{album.name}}</p>
+	  <p class="author"> Autor: {{album.author}}</p>
+
+    </div>
+</div>
+</div>

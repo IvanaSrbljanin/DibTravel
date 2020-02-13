@@ -1,0 +1,11 @@
+
+<h1 mat-dialog-title>Pažnja!</h1>
+<div mat-dialog-content>
+  <p>Da li ste sigurni da želite da obrišete sliku: {{data.photoTitle}}?</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close] (click)="onYesClick('' + data.photoTitle)">DA</button>
+  <button mat-button [mat-dialog-close] >NE</button>
+</div>
+
+
