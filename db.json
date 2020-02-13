@@ -2,15 +2,16 @@
   "me": {
     "id": 1,
     "name": "Ivana Srbljanin",
-    "username": "ivana.srbljanin@gmail.com"
+    "username": "ivana.srbljanin@gmail.com",
+    "password": ""
   },
   "albums": [
     { "id": 1, "userId": 1, "name": "Album1", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Ivana" },
-    { "id": 2, "userId": 1, "name": "Album2", "preview": "https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Jelena"},
-    { "id": 3, "userId": 1, "name": "Album3", "preview": "https://images.pexels.com/photos/414916/pexels-photo-414916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Marija"},
-    { "id": 4, "userId": 1, "name": "Album4", "preview": "https://images.pexels.com/photos/227433/pexels-photo-227433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Ivana"},
-    { "id": 5, "userId": 1, "name": "Album5", "preview": "https://images.pexels.com/photos/697662/pexels-photo-697662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Jelena"},
-    { "id": 6, "userId": 1, "name": "Album6", "preview": "https://images.pexels.com/photos/893126/pexels-photo-893126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Marija"}
+    { "id": 2, "userId": 1, "name": "Album2", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Jelena"},
+    { "id": 3, "userId": 1, "name": "Album3", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Unknown"},
+    { "id": 4, "userId": 1, "name": "Album4", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Ivana"},
+    { "id": 5, "userId": 1, "name": "Album5", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Jelena"},
+    { "id": 6, "userId": 1, "name": "Album6", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Unknown"}
   ],
   "photos": [
     { "id": 1, "albumId": 1, "url":"https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "title": "slika1"},
