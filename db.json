@@ -9,7 +9,7 @@
     { "id": 1, "userId": 1, "name": "Album1", "preview": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260", "author": "Ivana" },
     { "id": 2, "userId": 1, "name": "Album2", "preview": "https://images.pexels.com/photos/414916/pexels-photo-414916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Jelena"},
     { "id": 3, "userId": 1, "name": "Album3", "preview": "https://images.pexels.com/photos/227433/pexels-photo-227433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Marija"},
-    { "id": 4, "userId": 1, "name": "Album4", "preview": "https://images.pexels.com/photos/1098515/pexels-photo-1098515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Ivana"},
+    { "id": 4, "userId": 1, "name": "Album4", "preview": "https://images.pexels.com/photos/1078850/pexels-photo-1078850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Ivana"},
     { "id": 5, "userId": 1, "name": "Album5", "preview": "https://images.pexels.com/photos/3671649/pexels-photo-3671649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Jelena"},
     { "id": 6, "userId": 1, "name": "Album6", "preview": "https://images.pexels.com/photos/6397/white-globe-on-a-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "author": "Marija"}
   ],
