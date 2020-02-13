@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AlbumService } from '../services/album.service';
 
-import { faThLarge } from '@fortawesome/free-solid-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-
 import { ToggleStyleService} from '../services/toggle-style.service';
 
 @Component({
@@ -14,8 +11,6 @@ import { ToggleStyleService} from '../services/toggle-style.service';
 
 export class AlbumsComponent implements OnInit {
 
-	faThLarge = faThLarge;
-	faBars = faBars;
 
 	albums;
 

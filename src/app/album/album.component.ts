@@ -7,8 +7,8 @@ import { MatDialog, MatDialogRef, MAT_DIALOG_DATA, MatDialogConfig } from '@angu
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import { faThLarge } from '@fortawesome/free-solid-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+// import { faThLarge } from '@fortawesome/free-solid-svg-icons';
+// import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { ToggleStyleService} from '../services/toggle-style.service';
 
 
@@ -23,8 +23,8 @@ export class AlbumComponent implements OnInit {
   faTrash = faTrash;
   faSearch = faSearch;
   faArrowLeft = faArrowLeft;
-  faThLarge = faThLarge;
-  faBars = faBars;
+  // faThLarge = faThLarge;
+  // faBars = faBars;
 
   photos;
   album;
