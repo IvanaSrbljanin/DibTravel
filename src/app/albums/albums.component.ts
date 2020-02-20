@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AlbumService } from '../services/album.service';
-
 import { ToggleStyleService} from '../services/toggle-style.service';
+import { Album } from '../interfaces/album';
 
 @Component({
   selector: 'app-albums',
@@ -11,8 +11,7 @@ import { ToggleStyleService} from '../services/toggle-style.service';
 
 export class AlbumsComponent implements OnInit {
 
-
-	albums;
+	albums: Album;
 
 	constructor(private albumService: AlbumService, public toggle: ToggleStyleService) { }
 

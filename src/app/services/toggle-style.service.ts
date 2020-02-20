@@ -9,13 +9,13 @@ export class ToggleStyleService {
 
 	public gridShown: boolean = true;
   public listShown: boolean = false;
-    faThLarge = faThLarge;
+  faThLarge = faThLarge;
   faBars = faBars;
 
   constructor() { }
 
 
-showGrid() {
+  showGrid() {
       this.gridShown = true;
       this.listShown = false;
   }

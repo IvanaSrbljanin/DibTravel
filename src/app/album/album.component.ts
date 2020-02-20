@@ -8,6 +8,8 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { ToggleStyleService} from '../services/toggle-style.service';
+import { Photo } from '../interfaces/photo';
+import { Album } from '../interfaces/album';
 
 
 @Component({
@@ -22,8 +24,8 @@ export class AlbumComponent implements OnInit {
   faSearch = faSearch;
   faArrowLeft = faArrowLeft;
 
-  photos;
-  album;
+  photos: Photo;
+  album: Album;
 
   albumId: Number;
   dialogRef: MatDialogRef<DeletedialogComponent>;
